@@ -1,3 +1,35 @@
+<!-- HEADER -->
+<h1 align="center">🌟✨ 30 Days AI/ML Challenge ✨🌟</h1>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Challenge-30%20Days-ff69b4?style=for-the-badge&logo=target" />
+  <img src="https://img.shields.io/badge/Focus-AI%2FML-1E90FF?style=for-the-badge&logo=python" />
+  <img src="https://img.shields.io/badge/Status-In%20Progress-FFA500?style=for-the-badge&logo=progress" />
+</p>
+
+<p align="center">
+  🚀 A self-driven challenge where I build, learn, and share one AI/ML project every single day for 30 days.  
+  Each day = <b>One new folder 📂, One new experiment 🧪, One new lesson 📖</b>
+</p>
+
+---
+
+<!-- COOL DIVIDER -->
+<p align="center">
+  <img src="https://img.shields.io/badge/⚡-Keep%20Pushing%20Forward!-purple?style=for-the-badge" />
+</p>
+
+---
+
+### 📊 Progress Tracker  
+
+#### 🔵 Donut Chart Progress
+```mermaid
+pie showData
+    title Progress so far
+    "✅ Completed (19)" : 19
+    "🟠 Ongoing (1)" : 1
+    "⬜ Pending (10)" : 10
 gantt
     title 30 Days AI/ML Challenge Progress
     dateFormat  YYYY-MM-DD
