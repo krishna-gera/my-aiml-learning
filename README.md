@@ -1,22 +1,25 @@
-
 <!-- HEADER -->
-<h1 align="center">✨ 30 Days AI/ML Challenge ✨</h1>
+<h1 align="center" style="color:#FF6B6B; font-family:Verdana; font-weight:900; font-size: 42px;">
+  ✨🔥 30 Days AI/ML Challenge 🔥✨
+</h1>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Challenge-30%20Days-brightgreen?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Focus-AI%2FML-blue?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Status-In%20Progress-orange?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Challenge-30%20Days-ff69b4?style=for-the-badge&logo=target" />
+  <img src="https://img.shields.io/badge/Focus-AI%2FML-1e90ff?style=for-the-badge&logo=python" />
+  <img src="https://img.shields.io/badge/Status-In%20Progress-ffa500?style=for-the-badge&logo=progress" />
 </p>
 
-<p align="center">
-  A self-driven challenge where I build, learn, and share one AI/ML project every single day for 30 days 🚀  
-  Each day = **one new folder, one new experiment, one new lesson.**
+<p align="center" style="font-size:18px; font-weight:500;">
+  🚀 A <b>self-driven AI/ML journey</b> where I learn, build, and share one project <br> 
+  <span style="color:#FFD700; font-weight:700;">every single day</span> for <span style="color:#00FA9A; font-weight:700;">30 days</span>.  
+  <br><br>
+  📂 Each day = <b>1 new folder</b> | 🧠 <b>1 new lesson</b> | ⚡ <b>1 new experiment</b>
 </p>
 
 ---
 
 <!-- PROGRESS BAR -->
-### 📊 Progress Tracker  
+<h2 style="color:#32CD32;">📊 Progress Tracker</h2>
 
 ```mermaid
 gantt
@@ -53,3 +56,4 @@ gantt
     Day 28  :         d28, 2025-10-05, 1d
     Day 29  :         d29, 2025-10-06, 1d
     Day 30  :         d30, 2025-10-07, 1d
+
