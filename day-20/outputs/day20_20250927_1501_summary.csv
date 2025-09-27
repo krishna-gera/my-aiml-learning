@@ -1,0 +1,6 @@
+,value
+timestamp,20250927_1501
+pipeline_source,models/day20_20250927_1501_stacking_pipeline.pkl
+shap_used,False
+best_threshold,"{'threshold': 0.49999999999999994, 'accuracy': 0.8491620111731844, 'f1': 0.7969924812030075}"
+calibration,
