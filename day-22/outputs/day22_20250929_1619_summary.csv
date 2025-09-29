@@ -1,0 +1,6 @@
+,value
+timestamp,20250929_1619
+top_models,"['xgb_quick', 'lgb_quick', 'gb_quick']"
+best_weights,"[0.0, 0.0, 1.0]"
+best_accuracy,0.8439955106621774
+best_f1,0.785824345146379
