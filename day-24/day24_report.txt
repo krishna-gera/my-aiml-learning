@@ -1,0 +1,115 @@
+{
+  "best_params": {
+    "classifier": "GradientBoostingClassifier(random_state=42)",
+    "classifier__learning_rate": "0.01886647601058693",
+    "classifier__max_depth": "6",
+    "classifier__n_estimators": "370",
+    "classifier__subsample": "0.8"
+  },
+  "best_cv_score_roc_auc": 0.8895249121307114,
+  "val_accuracy": 0.8156424581005587,
+  "val_roc_auc": 0.8337944664031621,
+  "classification_report": "              precision    recall  f1-score   support\n\n         0.0       0.83      0.88      0.85       110\n         1.0       0.79      0.71      0.75        69\n\n    accuracy                           0.82       179\n   macro avg       0.81      0.80      0.80       179\nweighted avg       0.81      0.82      0.81       179\n",
+  "top_features": [
+    {
+      "feature": "Title_Mr",
+      "importance_mean": 0.16713221601489758,
+      "importance_std": 0.032611723536127034
+    },
+    {
+      "feature": "Age",
+      "importance_mean": 0.048882681564245835,
+      "importance_std": 0.01072785718976061
+    },
+    {
+      "feature": "Pclass",
+      "importance_mean": 0.04283054003724401,
+      "importance_std": 0.012140041722909955
+    },
+    {
+      "feature": "Sex_male",
+      "importance_mean": 0.02420856610800748,
+      "importance_std": 0.011479355685230891
+    },
+    {
+      "feature": "Title_Rare",
+      "importance_mean": 0.007914338919925537,
+      "importance_std": 0.002754227087104074
+    },
+    {
+      "feature": "TicketGroupSize",
+      "importance_mean": 0.007914338919925518,
+      "importance_std": 0.006228625772932788
+    },
+    {
+      "feature": "Title_Mrs",
+      "importance_mean": 0.006052141527001888,
+      "importance_std": 0.005796042643383963
+    },
+    {
+      "feature": "Fare",
+      "importance_mean": 0.004655493482309129,
+      "importance_std": 0.007506757679980014
+    },
+    {
+      "feature": "Deck_E",
+      "importance_mean": 0.002327746741154574,
+      "importance_std": 0.004815679903532862
+    },
+    {
+      "feature": "AgeBin_MidAge",
+      "importance_mean": 0.0018621973929236664,
+      "importance_std": 0.0026335448088884686
+    },
+    {
+      "feature": "AgeBin_Teen",
+      "importance_mean": 0.0018621973929236664,
+      "importance_std": 0.0026335448088884686
+    },
+    {
+      "feature": "Fare_log",
+      "importance_mean": 0.0013966480446927776,
+      "importance_std": 0.010727857189760612
+    },
+    {
+      "feature": "Embarked_S",
+      "importance_mean": 0.0013966480446927592,
+      "importance_std": 0.006501042850916648
+    },
+    {
+      "feature": "Title_Miss",
+      "importance_mean": 0.0013966480446927498,
+      "importance_std": 0.0024190653736995706
+    },
+    {
+      "feature": "Deck_D",
+      "importance_mean": 0.0009310986964618425,
+      "importance_std": 0.004465392479806993
+    },
+    {
+      "feature": "Embarked_Q",
+      "importance_mean": 9.25185853854297e-18,
+      "importance_std": 0.0022807167065020256
+    },
+    {
+      "feature": "AgeBin_Child",
+      "importance_mean": 0.0,
+      "importance_std": 0.0
+    },
+    {
+      "feature": "Deck_B",
+      "importance_mean": 0.0,
+      "importance_std": 0.0
+    },
+    {
+      "feature": "Deck_F",
+      "importance_mean": 0.0,
+      "importance_std": 0.0
+    },
+    {
+      "feature": "IsAlone",
+      "importance_mean": 0.0,
+      "importance_std": 0.0
+    }
+  ]
+}
