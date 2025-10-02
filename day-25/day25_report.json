@@ -1,0 +1,24 @@
+{
+  "holdout_metrics": {
+    "accuracy": 0.8100558659217877,
+    "roc_auc": 0.8264163372859026,
+    "classification_report": "              precision    recall  f1-score   support\n\n         0.0       0.82      0.88      0.85       110\n         1.0       0.79      0.70      0.74        69\n\n    accuracy                           0.81       179\n   macro avg       0.80      0.79      0.79       179\nweighted avg       0.81      0.81      0.81       179\n",
+    "confusion_matrix": [
+      [
+        97,
+        13
+      ],
+      [
+        21,
+        48
+      ]
+    ]
+  },
+  "models": [
+    "rf",
+    "et",
+    "gb"
+  ],
+  "meta_model": "LogisticRegression",
+  "notes": "Base models: RandomForest, ExtraTrees, GradientBoosting. Meta model trained on OOF meta-features (5-fold). Final meta trained on full OOF meta features."
+}
