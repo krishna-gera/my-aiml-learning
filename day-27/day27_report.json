@@ -1,0 +1,147 @@
+{
+  "rf_stats": {
+    "name": "RandomForest",
+    "accuracy": 0.6703910614525139,
+    "roc_auc": 0.6961791831357049,
+    "f1": 0.5693430656934306
+  },
+  "mlp_stats": {
+    "name": "MLP",
+    "accuracy": 0.6759776536312849,
+    "roc_auc": 0.6810935441370224,
+    "f1": 0.546875
+  },
+  "chosen_explainability": "permutation",
+  "shap_top": [],
+  "perm_top": [
+    [
+      "Age",
+      0.07150837988826811
+    ],
+    [
+      "Fare_log",
+      0.035754189944134054
+    ],
+    [
+      "Fare",
+      0.029050279329608897
+    ],
+    [
+      "Parch",
+      0.021787709497206643
+    ],
+    [
+      "Pclass",
+      0.019553072625698286
+    ],
+    [
+      "SibSp",
+      0.007821229050279299
+    ],
+    [
+      "FamilySize",
+      0.003910614525139622
+    ],
+    [
+      "IsAlone",
+      0.0016759776536312554
+    ],
+    [
+      "TicketGroupSize",
+      -0.013407821229050298
+    ]
+  ],
+  "fn_fp_counts": {
+    "TP": 39,
+    "FN": 30,
+    "TN": 81,
+    "FP": 29
+  },
+  "top_fn_numeric": [
+    [
+      "IsAlone",
+      0.6967835003620648
+    ],
+    [
+      "Parch",
+      -0.559345828660339
+    ],
+    [
+      "Age",
+      0.49808013945685015
+    ],
+    [
+      "Fare_log",
+      -0.49300981638593766
+    ],
+    [
+      "FamilySize",
+      -0.36412082757376696
+    ],
+    [
+      "TicketGroupSize",
+      -0.3388182788364528
+    ],
+    [
+      "Pclass",
+      0.3095583807063015
+    ],
+    [
+      "Fare",
+      -0.2768280435332468
+    ],
+    [
+      "SibSp",
+      -0.08392307573986753
+    ]
+  ],
+  "top_fp_numeric": [
+    [
+      "Pclass",
+      -1.2786072219176132
+    ],
+    [
+      "Fare_log",
+      1.154797488245826
+    ],
+    [
+      "Fare",
+      1.0804038111149583
+    ],
+    [
+      "IsAlone",
+      -0.7588884938278975
+    ],
+    [
+      "Parch",
+      0.28735805596186437
+    ],
+    [
+      "Age",
+      0.24041312937121162
+    ],
+    [
+      "TicketGroupSize",
+      0.1935026423074519
+    ],
+    [
+      "FamilySize",
+      0.08213293919727326
+    ],
+    [
+      "SibSp",
+      -0.01775481476163648
+    ]
+  ],
+  "selected_rule": {
+    "type": "numeric",
+    "feature": "Fare_log",
+    "op": ">=",
+    "threshold": 2.787834413830345,
+    "improvement_f1": 0.052879156528791604,
+    "new_f1": 0.6222222222222222
+  },
+  "best_threshold": 0.49,
+  "best_holdout_f1_after_rule": 0.6222222222222222,
+  "notes": "If SHAP not available, permutation importance used. Keep an eye on selected_rule generalization to test set."
+}
