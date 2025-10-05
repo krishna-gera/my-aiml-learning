@@ -1,0 +1,14 @@
+{
+  "holdout_f1": 0.6709677419354839,
+  "holdout_acc": 0.6815642458100558,
+  "holdout_roc": 0.7467061923583662,
+  "best_threshold": 0.35,
+  "selected_rule": {
+    "type": "numeric",
+    "feature": "Fare_log",
+    "op": ">=",
+    "threshold": 2.787834413830345,
+    "improvement_f1": 0.052879156528791604,
+    "new_f1": 0.6222222222222222
+  }
+}
