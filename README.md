@@ -53,7 +53,7 @@ gantt
     Day 25  :done,    d25, 2025-10-02, 1d
     Day 26  :done,    d26, 2025-10-03, 1d
     Day 27  :done,    d27, 2025-10-04, 1d
-    Day 28  :active,  d28, 2025-10-05, 1d
-    Day 29  :         d29, 2025-10-06, 1d
+    Day 28  :done,    d28, 2025-10-05, 1d
+    Day 29  :active,  d29, 2025-10-06, 1d
     Day 30  :         d30, 2025-10-07, 1d
 
